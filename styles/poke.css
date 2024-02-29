@@ -1,0 +1,61 @@
+@media (min-width: 320px) and (max-width: 1920px){
+    body{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    
+    input{
+        margin-left: 0;
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+        height: 50px;
+        width: 280px;
+    }
+
+    #img-poke{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    
+    #p{
+        margin-left: 10px;
+    }
+    
+
+    #p-footer{
+        color: wheat;
+        font-size: 25px;
+    }
+
+    #lorem{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    img{
+        width: 180px;
+        height: 160px;
+    }
+
+    footer{
+        margin-top: 20em;
+        width: 100%;
+        height: 120px;
+        background-color: #780000;
+        display: grid;
+        justify-content: space-around;
+    }
+    
+
+    #ASH{
+        text-align: center;
+        font-size: 25px;
+    }
+}
