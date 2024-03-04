@@ -1,4 +1,5 @@
 @media (min-width: 320px) and (max-width: 1920px){
+
     body{
         width: 100%;
         height: auto;
@@ -16,17 +17,10 @@
     }
 
     #img-poke{
-        display: flex;
         align-items: center;
         text-align: center;
-        margin-left: 20px;
         margin-top: 50px;
     }
-    
-    #p{
-        margin-left: 10px;
-    }
-    
 
     #p-footer{
         color: wheat;
@@ -45,7 +39,7 @@
     }
 
     footer{
-        margin-top: 20em;
+        margin-top: 5em;
         width: 100%;
         height: 120px;
         background-color: #780000;
@@ -57,5 +51,25 @@
     #ASH{
         text-align: center;
         font-size: 25px;
+    }
+
+    #container{
+        text-align: center;
+        width: 200px;
+        background-color: rgba(85, 63, 63, 0.507);
+        border-radius: 10px;
+        box-shadow: 5px 5px 3px black;
+        margin: 10% auto 10px;
+        padding: 5px;
+    }
+
+    #btn1{
+        border: none;
+        width: 10em;
+        height: 1.5em;
+        border-radius: 15px;
+        font-size: 19px;
+        color: white;
+        background-color: #780000;
     }
 }
