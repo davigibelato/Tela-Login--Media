@@ -62,7 +62,18 @@ footer{
     font-size: 25px;
 }
 
-.container{
+.container-1{
+    text-align: center;
+    width: 200px;
+    background-color: rgba(85, 63, 63, 0.507);
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px black;
+    margin: 10% auto 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.container-2{
     text-align: center;
     width: 200px;
     background-color: rgba(85, 63, 63, 0.507);
@@ -91,9 +102,6 @@ hr{
     height: 2px;
 }
 
-.global{
-    display: flex;
-}
 
 @media (min-width: 768px) and (max-width: 1920px) {
 
@@ -177,6 +185,10 @@ hr{
         margin: 10% auto 10px;
         padding: 5px;
         font-size: 30px;
+    }
+
+    .global{
+        display: flex;
     }
 }
 
