@@ -13,7 +13,9 @@ function loadpk(){
         console.log(pokeName);
         document.getElementById('numero').innerHTML = data['id'];
         let img = data['sprites']['front_default'];
-        document.getElementById('pic').setAttribute('src', img)
+        document.getElementById('pic').setAttribute('src', img);
+        document.getElementById('altura').innerHTML = data['height'];
+        document.getElementById('peso').innerHTML = data['weight'];
     })
 
     .catch((erro) => {
