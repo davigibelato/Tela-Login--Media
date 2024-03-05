@@ -1,75 +1,89 @@
-@media (min-width: 320px) and (max-width: 1920px){
-
-    body{
-        width: 100%;
-        height: auto;
-        margin: 0;
-        padding: 0;
-    }
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
     
-    input{
-        margin-left: 0;
-        text-align: center;
-        align-items: center;
-        margin-top: 20px;
-        height: 50px;
-        width: 280px;
-    }
+input{
+    text-align: center;
+    align-items: center;
+    margin-top: 10%;
+    height: 30px;
+    width: 280px;
+    border-radius: 20px;
+    border: none;
+}
 
-    #img-poke{
-        align-items: center;
-        text-align: center;
-        margin-top: 50px;
-    }
+#pokemon{
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
 
-    #p-footer{
-        color: wheat;
-        font-size: 25px;
-    }
+#poke-text{
+    margin: 10px;
+}
 
-    #lorem{
-        margin-top: 10px;
-        text-align: center;
-        font-size: 15px;
-    }
+#p-footer{
+    color: wheat;
+    font-size: 25px;
+}
 
-    img{
-        width: 180px;
-        height: 160px;
-    }
+#lorem{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
 
-    footer{
-        margin-top: 5em;
-        width: 100%;
-        height: 120px;
-        background-color: #780000;
-        display: grid;
-        justify-content: space-around;
-    }
+#img-poke{
+    width: 280px;
+    height: 160px;
+}
+
+img{
+    width: 180px;
+    height: 160px;
+}
+
+footer{
+    margin-top: 5em;
+    width: 100%;
+    height: 120px;
+    background-color: #780000;
+    display: grid;
+    justify-content: space-around;
+}
     
 
-    #ASH{
-        text-align: center;
-        font-size: 25px;
-    }
+#ASH{
+    text-align: center;
+    font-size: 25px;
+}
 
-    #container{
-        text-align: center;
-        width: 200px;
-        background-color: rgba(85, 63, 63, 0.507);
-        border-radius: 10px;
-        box-shadow: 5px 5px 3px black;
-        margin: 10% auto 10px;
-        padding: 5px;
-    }
+#container{
+    text-align: center;
+    width: 200px;
+    background-color: rgba(85, 63, 63, 0.507);
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px black;
+    margin: 10% auto 10px;
+    padding: 5px;
+}
 
-    #btn1{
-        border: none;
-        width: 10em;
-        height: 1.5em;
-        border-radius: 15px;
-        font-size: 19px;
-        color: white;
-        background-color: #780000;
-    }
+#btn1{
+    border: none;
+    width: 10em;
+    height: 1.5em;
+    border-radius: 15px;
+    font-size: 19px;
+    color: white;
+    background-color: #780000;
+}
+
+hr{
+    margin: 1px;
+    background-color:black;
+    height: 2px;
+
 }
